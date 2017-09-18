@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<title>Heroes of the Multiverse</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 160px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 160px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="images/m31_gendler.jpg" style="width:100%">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-university w3-xxlarge"></i>
+    <p>HEROES OF THE MULTIVERSE</p>
+  </a>
+  <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-wrench w3-xxlarge"></i>
+    <p>BUILD INSTRUCTIONS</p>
+  </a>
+  <a href="players.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>PLAYERS</p>
+  </a>
+  <a href="#stuff" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-gears w3-xxlarge"></i>
+    <p>STUFF</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOTM</a>
+    <a href="#home" class="w3-bar-item w3-button" style="width:25% !important">BUILD</a>
+    <a href="players.html" class="w3-bar-item w3-button" style="width:25% !important">PLAYERS</a>
+    <a href="#stuff" class="w3-bar-item w3-button" style="width:25% !important">STUFF</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <span class="w3-hide-medium w3-hide-large"><h1 class="w3-large">Heroes of the Multiverse</h1></span>
+    <span class="w3-hide-small w3-hide-large"><h2>Heroes of the Multiverse</h2></span>
+    <span class="w3-hide-small w3-hide-medium"><h1 class="w3-jumbo">Heroes of the Multiverse</h1>
+    <p>Champions Campaign</p></span>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="intro">
+    <h2 class="w3-text-light-grey">Build Instructions</h2>
+    <hr style="width:260px" class="w3-opacity">
+    <p>The conceit is that each player comes from their own reality. So when it comes to creating your own character you also get to describe your own world. However there are somethings all must share or questions your origin must answer:</p>
+<ul>
+  <li>Most supers are villians so you are outnumbered.</li>
+  <li>You have been fighting the good fight for a while, so how have you survived? Are you a good all-rounder? Lucky? Or something else? Maybe you are not surviving? Perhaps you know your time is running out?</li>
+  <li>Supers are unpopular with the population at large. You are no exception.</li>
+  <li>How have you stayed hidden? Assuming you are?</li>
+  <li>You are based out of either London or New York (but feel free to rename them).</li>
+  <li>Your chosen city is the world's hotspot of super activity.</li>
+  <li>Supers (at least publicly) have only started appearing in the 21st Century.</li>
+</ul>
+<p>Optional things you may wish to consider:</p>
+<ul>
+  <li>Any useful contacts you may have?</li>
+  <li>Any colourful villians you have fought, maybe defeated. Maybe even killed.</li>
+  <li>What do you do outside of heroing? I am highly likely to give a free bonus to be spent on skills.</li>
+</ul>
+
+	
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <p class="w3-medium">Delivered by the <a href="http://www.herogames.com/" target="herogames" class="w3-hover-text-green">Hero System</a> and <a href="http://www.rptools.net/" target="maptool" class="w3-hover-text-green">Maptool</a>.</p>
+  </footer>
+  <!-- End footer -->
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
